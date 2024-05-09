@@ -1,0 +1,98 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.hover-1,
+.hover-2 {
+  width: 300px; /* Set desired width */
+  height: 400px; /* Set desired height */
+}
+.hover-1 {
+  background: linear-gradient(
+    to bottom,
+    hsl(252, 100%, 67%),
+    hsl(241, 81%, 54%)
+  );
+  border-radius: 20px;
+  padding: 30px;
+  align-items: center;
+  text-align: center;
+  position: relative; /* Add this */
+}
+.hover-2 {
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: rgba(106, 79, 119, 0.5) 0px 7px 29px 0px;
+  align-items: center;
+}
+.circle {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  background: linear-gradient(
+    to bottom,
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+  border-radius: 50%; /* Makes it a perfect circle */
+  margin: 0 auto 20px;
+}
+.circle h1 {
+  font-size: 50px;
+}
+.faded {
+  color: hsl(241, 100%, 89%);
+  opacity: 0.8;
+}
+.highlight {
+  color: white;
+  font-weight: bold;
+}
+table {
+  border-spacing: 20px;
+}
+
+table td {
+  width: 100%;
+  border-radius: 10px;
+  padding: 5px;
+  white-space: nowrap;
+}
+tr:first-child {
+  background-color: rgb(244, 71, 9, 0.1);
+  font-weight: bold;
+}
+tr:nth-child(2) {
+  background-color: rgba(225, 254, 10, 0.1);
+  font-weight: bold;
+}
+tr:nth-child(3) {
+  background-color: rgba(23, 224, 9, 0.1);
+  font-weight: bold;
+}
+tr:last-child {
+  background-color: rgba(17, 9, 244, 0.1);
+  font-weight: bold;
+}
+td:first-child {
+  column-width: 60%;
+}
+button {
+  border-radius: 10px;
+  background-color: rgb(29, 28, 28);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 7px 50px 7px 50px;
+  margin-left: 20px;
+}
